@@ -2,10 +2,6 @@ name: CI
 
 on: push
 
-defaults:
-  run:
-    working-directory: ./4.2-a11y-test
-
 jobs:
   lint:
     runs-on: ubuntu-latest
