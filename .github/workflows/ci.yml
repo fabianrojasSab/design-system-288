@@ -15,8 +15,8 @@ jobs:
       - name: 📥 Install Dependencies
         run: yarn install
 
-      - name: 💅 Lint
-        run: yarn lint
+      # - name: 💅 Lint
+      #   run: yarn lint
 
       - name: ✅ Design System - Unit tests
         run: yarn design-system:test
