@@ -1,13 +1,13 @@
-$_primary-green: #3cff64;
+$_primary-green: #23c3fd;
 $_primary-blue: #1a2233;
 $_primary-gray: #787676;
 $_primary-grayLight: #b1b1b1;
 $_primary-grayLighter: #efefef;
 $_primary-white: #fff;
-$_secondary-violet: #7026f4;
+$_secondary-green: #d2f7ec;
 $_secondary-yellow: #fef878;
-$_secondary-pink: #e0a4bf;
-$_hover-green: rgb(60 255 100 / 70%);
+$_secondary-pink: #f9dcdc;
+$_hover-green: rgba(60, 144, 255, 0.7);
 $_hover-blue: rgb(26 34 51 / 75%);
 $_hover-white: rgb(255 255 255 / 70%);
 $_error: #f83d32;
@@ -27,10 +27,10 @@ $bg: $_primary-grayLighter;
 $text-primary: $_primary-blue;
 $text-secondary: $_primary-gray;
 $text-secondary-darkTheme: $_primary-grayLight;
-$text-tertiary: $_secondary-violet;
+$text-tertiary: $_secondary-green;
 
 $product-alt1: $_primary-green;
-$product-alt2: $_secondary-violet;
+$product-alt2: $_secondary-green;
 $product-alt3: $_secondary-yellow;
 $product-alt4: $_secondary-pink;
 
@@ -42,7 +42,7 @@ $state-error: $_error;
 $state-disabled: $_primary-grayLight;
 $state-disabled-bg: $_primary-grayLighter;
 
-$input-active: $_secondary-violet;
+$input-active: $_secondary-green;
 $input-default: $_primary-gray;
 $input-border: $_primary-grayLight;
 
